@@ -32,7 +32,7 @@ public class Conector {
 		return INSTANCE;
 	}
 
-	// Ejercicio 2 Conexxion al nuevo usuario
+	// Ejercicio 2 Conexion al nuevo usuario
 	private static void crearConexion() {
 		String host = "127.0.0.1";
 		String user = "Santiago";
