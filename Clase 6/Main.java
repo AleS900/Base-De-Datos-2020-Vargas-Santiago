@@ -19,8 +19,8 @@ public class Main {
 		}
 		// Ejercicio 4
 		// Se agrego i para crear un salto de linea con el if marcado con "*"
-		// tomando n cuenta el numero de tipos de datos(entidades)
-		// que se quieren mostrar, en este caso:
+		// tomando en cuenta el numero de tipos de datos(entidades)
+		// que se quieren mostrar, en este caso 3:
 		// nro(consultorio),nombre(doctor),apellidos(doctor)
 		try {
 			ArrayList<String> listDoctorConsultorio = instancia.getDoctorConsultorio();
@@ -28,7 +28,8 @@ public class Main {
 			for (String elemento : listDoctorConsultorio) {
 				System.out.print(elemento);
 				System.out.print(" ");
-				i++;
+				i++; 
+				//*
 				if (i % 3 == 0) {
 					System.out.println();
 				}
